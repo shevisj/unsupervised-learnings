@@ -1,4 +1,11 @@
-# Unsupervision
-https://unsupervision.com
+# [Unsupervision](https://unsupervision.com)
 
-![unsuperbot](https://user-images.githubusercontent.com/22606240/195933324-3afc0fb3-f95b-4b0b-aba8-6b2732d5ea8f.png)
+![Unsupervision](https://user-images.githubusercontent.com/22606240/195933324-3afc0fb3-f95b-4b0b-aba8-6b2732d5ea8f.png)
+
+# This is a website.
+
+I hope it’s everything you had imagined it would be.
+
+Subscribe via [email](https://unsupervision.com/subscribe/) or [RSS feed](https://unsupervision.com/feed/).
+
+[Twitter](https://twitter.com/unsupervision) • [GitHub](https://github.com/shevisj) • [Contact](mailto:hello@unsupervision.com)
