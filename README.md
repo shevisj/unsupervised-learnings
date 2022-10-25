@@ -8,4 +8,4 @@ I hope it’s everything you had imagined it would be.
 
 Subscribe via [email](https://unsupervision.com/subscribe/) or [RSS feed](https://unsupervision.com/feed/).
 
-[Twitter](https://twitter.com/unsupervision) • [GitHub](https://github.com/shevisj) • [Contact](mailto:hello@unsupervision.com)
+[Twitter](https://twitter.com/unsupervision) • [GitHub](https://github.com/shevisj/unsupervision) • [Contact](mailto:hello@unsupervision.com)
