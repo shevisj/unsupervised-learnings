@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=3 uid="uid://crcdtn68pgks6"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_isabe"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_kg057"]
+
+[sub_resource type="Skin" id="Skin_2b6ma"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_lr0h7"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="CameraA" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8963, 0.492906)
+current = true
+
+[node name="MeshA" type="MeshInstance3D" parent="."]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="." node_paths=PackedStringArray("shortcut_context")]
+offset_left = 683.0
+offset_top = 296.0
+offset_right = 1129.0
+offset_bottom = 641.0
+shortcut_context = NodePath("")
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="SubViewportContainer/SubViewport"]
+transform = Transform3D(0.678711, 0.572559, -0.459922, 5.08096e-08, 0.62625, 0.779622, 0.734405, -0.529138, 0.425043, 0.229413, 2.32673, 0)
+
+[node name="MeshB" type="MeshInstance3D" parent="SubViewportContainer/SubViewport"]
+transform = Transform3D(1, 0, 0, 0, 0.0137876, -0.999905, 0, 0.999905, 0.0137876, 0, 0.94977, -6.38462)
+material_override = SubResource("StandardMaterial3D_isabe")
+mesh = SubResource("PlaneMesh_kg057")
+skin = SubResource("Skin_2b6ma")
+
+[node name="CameraB" type="Camera3D" parent="SubViewportContainer/SubViewport"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.943793, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="SubViewportContainer/SubViewport"]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+mesh = SubResource("PlaneMesh_lr0h7")
+skeleton = NodePath("../../..")
