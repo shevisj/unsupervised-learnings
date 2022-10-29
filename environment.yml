@@ -1,0 +1,6 @@
+name: unsupervision
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+prefix: /home/shevis/miniconda3/envs/unsupervision
